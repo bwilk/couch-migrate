@@ -8,5 +8,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Bartosz Wilk"]
   s.email       = 'bwilk@gmail.com'
   s.files       = ["lib/couch_migrate.rb"]
+
+  s.add_development_dependency "couchrest", "~> 2.0"
+  s.add_development_dependency 'OptionParser', '~> 0.5.1'
 end
 
