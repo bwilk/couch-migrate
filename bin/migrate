@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+require 'couch_migrate'
+
+options = Options.parse(ARGV)
+puts options
+Couch.migrate(options)
+
