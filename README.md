@@ -1,4 +1,10 @@
 # couch-migrate
+System requirements:
+```
+ruby 
+gem 
+bundler
+```
 
 In order to install run:
 ```
@@ -6,7 +12,7 @@ git clone https://github.com/bwilk/couch-migrate.git
 cd couch-migrate
 bundle install
 gem build couch_migrate.gemspec
-gem install couch_migrate-0.0.1.gem
+gem install couch_migrate-*.gem
 ```
 
 To run:

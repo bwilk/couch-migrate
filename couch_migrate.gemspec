@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'couch_migrate'
-  s.version     = '0.0.1'
+  s.version     = '0.0.2'
   s.date        = '2017-02-10'
   s.description = "Migration between two couch databases"
   s.summary     = "Migration between two couch databases"
